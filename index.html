@@ -29,7 +29,7 @@
     </a>
     <nav>
       <a href="#suspects">The Suspects</a>
-      <a href="#emerge">Get Notified</a>
+      <a href="#emerge" hidden>Get Notified</a>
     </nav>
   </header>
 
@@ -40,8 +40,8 @@
         <h1>Goblins<br><span>in a</span> Trenchcoat</h1>
         <p class="lede">Definitely one regular, full&#8209;sized adult. Please do not look too closely. Our website is coming soon.</p>
         <div class="cta-row">
-          <a class="btn" href="#emerge">Notify me when we emerge</a>
-          <a class="btn btn-ghost" href="#suspects">Meet the suspects</a>
+          <a class="btn" href="#emerge" hidden>Notify me when we emerge</a>
+          <a class="btn" href="#suspects">Meet the suspects</a>
         </div>
       </div>
 
@@ -122,7 +122,8 @@
       </div>
     </section>
 
-    <section class="emerge" id="emerge">
+    <!-- Sign-up is hidden until it's hooked up to a mailing list service. Remove `hidden` here and on the two #emerge links to bring it back. -->
+    <section class="emerge" id="emerge" hidden>
       <div class="emerge-inner">
         <h2>Be first to know when we emerge</h2>
         <p>Drop your email and a goblin will (eventually) write it down.</p>
