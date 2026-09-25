@@ -68,7 +68,7 @@ h1, h2, h3 { font-family: "Bowlby One", Impact, sans-serif; font-weight: 400; li
 .lede { font-size: clamp(1.1rem, 1.6vw, 1.3rem); max-width: 34ch; margin: 1.5rem 0 2rem; }
 .cta-row { display: flex; flex-wrap: wrap; gap: 1rem; }
 
-.hero-art { position: relative; display: grid; justify-items: center; }
+.hero-art { position: relative; display: grid; justify-items: center; padding-top: 4.5rem; }
 .hero-art::before {
   content: ""; position: absolute; z-index: 0;
   top: 46%; left: 50%; width: min(400px, 88%); aspect-ratio: 1;
@@ -121,7 +121,7 @@ h1, h2, h3 { font-family: "Bowlby One", Impact, sans-serif; font-weight: 400; li
   55% { transform: rotate(-6deg); } 75% { transform: rotate(4deg); }
 }
 .bubble {
-  position: absolute; z-index: 2; top: 2%; right: 2%; margin: 0;
+  position: absolute; z-index: 2; top: 0; right: 0; margin: 0;
   max-width: 14ch; padding: .7rem 1rem;
   background: #fff; border: var(--outline); border-radius: 20px; box-shadow: 4px 4px 0 var(--ink);
   font-weight: 800; font-size: 1.05rem; line-height: 1.2;
